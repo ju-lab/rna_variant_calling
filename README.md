@@ -1,10 +1,11 @@
 # rna_variant_calling
 Calls SNVs from an RNA-seq aligned with STAR using GATK Best Practice
 http://www.broadinstitute.org/gatk/guide/article?id=3891
+
 Note that this pipeline does not do indel-realignment nor does BQSR, but can be added if necessary. 
 
 
-``bash
+```bash
 $ python rna_variant_calling.py -h
 usage: rna_variant_calling.py [-h] -i INPUT_STAR_BAM
 
